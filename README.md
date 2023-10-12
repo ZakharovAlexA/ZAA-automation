@@ -55,6 +55,4 @@ git commit -a -m "commit_message"
 
 <br>
 
-:arrow_up: [to begin](README.md##Skillfactory)
-
 <br><br>
