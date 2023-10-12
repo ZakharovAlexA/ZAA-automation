@@ -55,7 +55,7 @@ git commit -a -m "commit_message"
 
 <br>
 
-:arrow_up: [to begin](README.md#ZAA-automation)
+:arrow_up: [в начало](README.md#ZAA-automation)
 
 
 <br><br>
