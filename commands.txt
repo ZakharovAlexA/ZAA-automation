@@ -1,0 +1,69 @@
+Для работы с Webpack нам в первую очередь необходимо установить два пакета (webpack и webpack-cli) с помощью команды:
+	npm install webpack webpack-cli --save-dev
+
+Теперь мы можем воспользоваться командой npx webpack. 
+
+Чтобы каждый раз не пересобирать проект вручную, можно воспользоваться командой npx webpack --watch
+
+npm i style-loader css-loader --save-dev
+
+ Pug — это высокопроизводительный шаблонизатор, реализованный с помощью JavaScript для Node.js и браузеров.
+
+В первую очередь для работы с Pug нам потребуется установить pug и загрузчик для него:
+
+npm install pug pug-loader --save-dev
+
+npm i html-webpack-plugin --save-dev
+
+npm install --save-dev typescript ts-loader
+
+После этого нам надо создать файл tsconfig.json при помощи команды npx tsc --init и переименовать наш файл index.js в .ts.
+
+Далее мы исправляем файл webpack.config.js.
+
+Для начала работы с линтером установим зависимости:
+
+npm install eslint --save-dev
+
+Затем необходимо добавить файл конфигурации:
+
+npx eslint --init
+
+После чего можно запустить линтер для любого файла из каталога следующим образом:
+
+npx eslint yourfile.js
+
+добавить загрузчик
+
+npm i eslint-loader --save-dev
+
+
+Для css
+
+Npm i stylelint stylelint-webpack-plugin --save-dev
+
+npm install --save-dev webpack-dev-server
+Теперь мы можем запустить его с помощью команды npx webpack-dev-server. 
+npm install webpack-dev-middleware --save-dev
+
+JSON-server — простой проект, который очень легко и быстро позволяет настроить API. JSON-server доступен в виде пакета npm, поэтому давайте установим его с помощью:
+
+$ npm install -g json-server
+
+Теперь можно запустить JSON-сервер командой:
+
+json-server --watch database.json
+
+Запуск husky:
+
+npm install husky --save-dev
+
+Для установки выполним команду:
+
+npm set-script prepare "husky install" && npm run prepare
+
+Добавляем хук:
+
+npx husky add .husky/pre-commit "npm test"
+
+
